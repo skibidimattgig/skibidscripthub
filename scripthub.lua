@@ -19,20 +19,6 @@ local function execute(n)
 	local s = scripts[n]
 	local method = s[2]
 	local str = s[1]
-	
-	if n == "мастурбация виброяйца вибропуля хуй соски мальдивы" then
-		local player = game.Players.LocalPlayer
-		local char = player.Character or player.CharacterAdded:Wait()
-
-		game.StarterGui:SetCoreGuiEnabled("Backpack", true)
-
-		loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))()
-		-- Made by muscle_legends2021 (Gio)
-		-- YouTube: GioBolqvi
-
-		loadstring(game:HttpGet("https://pastefy.app/YZoglOyJ/raw"))()
-		return
-	end
 
 	if method == 1 then
 		loadstring(game:HttpGet((str),true))()
@@ -57,7 +43,7 @@ drag.Parent = frame
 
 frame.AnchorPoint = Vector2.new(.5,.5)
 frame.Position = UDim2.new(.5,0,.5,0)
-frame.Size = UDim2.new(.5,0,.5,0)
+frame.Size = UDim2.new(.35,0,.35,0)
 frame.Parent = ui
 
 local text = Instance.new("TextLabel")
