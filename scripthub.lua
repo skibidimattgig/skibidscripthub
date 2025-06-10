@@ -13,6 +13,7 @@ local scripts = {
 	["инвиз"] = {"https://abre.ai/invisible-v2", 1},
 	["телепорт"] = {"https://raw.githubusercontent.com/skibidimattgig/scripts-for-script-hab/refs/heads/main/clickTp.lua", 1},
 	["админка"] = {"https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", 1},
+	["для узких"] = {"https://raw.githubusercontent.com/skibidimattgig/scripts-for-script-hab/refs/heads/main/dlyauzkih.lua", 1},
 }
 
 
@@ -138,6 +139,7 @@ local sorts = {
 	},
 	["Murder Mystery 2"] = {
 		scripts["мардер"],
+		scripts["для узких"],
 	},
 	["The Strongest Battlegrounds"] = {
 		scripts["залатые мусарги"],
