@@ -43,7 +43,7 @@ drag.Parent = frame
 
 frame.AnchorPoint = Vector2.new(.5,.5)
 frame.Position = UDim2.new(.5,0,.5,0)
-frame.Size = UDim2.new(.35,0,.35,0)
+frame.Size = UDim2.new(.3,0,.3,0)
 frame.Parent = ui
 
 local text = Instance.new("TextLabel")
