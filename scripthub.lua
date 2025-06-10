@@ -12,6 +12,7 @@ local scripts = {
 	["отчим тварь (вх)"] = {"https://pastebin.com/raw/n88ttmFh", 1},--https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/UESP
 	["инвиз"] = {"https://abre.ai/invisible-v2", 1},
 	["телепорт"] = {"https://raw.githubusercontent.com/skibidimattgig/scripts-for-script-hab/refs/heads/main/clickTp.lua", 1},
+	["админка"] = {"https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", 1},
 }
 
 
@@ -137,6 +138,9 @@ local sorts = {
 	},
 	["The Strongest Battlegrounds"] = {
 		scripts["залатые мусарги"],
+	},
+	["Типо админка"] = {
+		scripts["админка"],
 	},
 }
 local amountOfSorts = 0
