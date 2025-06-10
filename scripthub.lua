@@ -11,6 +11,7 @@ local scripts = {
 	["залатые мусарги"] = {"https://raw.githubusercontent.com/yes1nt/yes/refs/heads/main/Trashcan%20Man", 1},
 	["отчим тварь (вх)"] = {"https://pastebin.com/raw/n88ttmFh", 1},--https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/UESP
 	["инвиз"] = {"https://abre.ai/invisible-v2", 1},
+	["телепорт"] = {"https://raw.githubusercontent.com/skibidimattgig/scripts-for-script-hab/refs/heads/main/clickTp.lua", 1},
 }
 
 
@@ -129,6 +130,7 @@ local sorts = {
 		scripts["отчим тварь (вх)"],
 		scripts["вибропуля"],
 		scripts["инвиз"],
+		scripts["телепорт"],
 	},
 	["Murder Mystery 2"] = {
 		scripts["мардер"],
