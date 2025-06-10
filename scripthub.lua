@@ -72,7 +72,7 @@ text.Size = UDim2.new(1,0,.1,0)
 text.TextScaled = true
 text.Parent = frame
 local text = Instance.new("TextLabel")
-text.Text = "нажми кнопачгу инсёрт (insert) чтабы закрыть/аткрыть менью"
+text.Text = "нажми кнопачгу инсёрт либо ` (insert/ё) чтабы закрыть/аткрыть менью"
 text.Size = UDim2.new(1,0,.1,0)
 text.Position = UDim2.new(0,0,1,0)
 text.TextScaled = true
@@ -80,7 +80,7 @@ text.Parent = frame
 
 local uis = game:GetService("UserInputService")
 uis.InputBegan:Connect(function(input, gpe)
-	if input.KeyCode ~= Enum.KeyCode.Insert then return end
+	if input.KeyCode ~= Enum.KeyCode.Insert or input.KeyCode ~= Enum.KeyCode.Backquote then return end
 
 	frame.Visible = not frame.Visible
 end)
