@@ -10,7 +10,7 @@ local scripts = {
 	["вибропуля"] = {"https://raw.githubusercontent.com/skibidimattgig/scripts-for-script-hab/refs/heads/main/masterbait?token=GHSAT0AAAAAADE3442YZ5XJB4UKOENFQZ6U2CIGJMQ", 1},
 	["залатые мусарги"] = {"https://raw.githubusercontent.com/yes1nt/yes/refs/heads/main/Trashcan%20Man", 1},
 	["отчим тварь (вх)"] = {"https://pastebin.com/raw/n88ttmFh", 1},--https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/UESP
-	["инвиз"] = {"https://pastebin.com/raw/3Rnd9rHf", 1},
+	["инвиз"] = {"https://abre.ai/invisible-v2", 1},
 }
 
 
