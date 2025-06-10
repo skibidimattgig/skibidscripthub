@@ -5,7 +5,10 @@ local player = game.Players.LocalPlayer
 
 local scripts = {
 	["дилдо выкидывать"] = {"https://raw.githubusercontent.com/0Ben1/fe/main/obf_rf6iQURzu1fqrytcnLBAvW34C9N55kS9g9G3CKz086rC47M6632sEd4ZZYB0AYgV.lua.txt", 1},
-	["летяга"] = {"https://raw.githubusercontent.com/skibidimattgig/bottlecap/refs/heads/main/flymatron%203000", 1}
+	["летяга"] = {"https://raw.githubusercontent.com/skibidimattgig/bottlecap/refs/heads/main/flymatron%203000", 1},
+	["мардер хуйня полная"] = {"rbxassetid://4001118261", 2},
+	["мастурбация виброяйца вибропуля хуй соски мальдивы"] = {"https://raw.githubusercontent.com/skibidimattgig/scripts-for-script-hab/refs/heads/main/masterbait?token=GHSAT0AAAAAADE3442YZ5XJB4UKOENFQZ6U2CIGJMQ", 1},
+	["залатые мусарги"] = {"https://raw.githubusercontent.com/yes1nt/yes/refs/heads/main/Trashcan%20Man", 1},
 }
 
 
@@ -14,13 +17,20 @@ local scripts = {
 local function execute(n)
 	local s = scripts[n]
 	local method = s[2]
-	
+	local str = s[1]
+
 	if method == 1 then
-		loadstring(game:HttpGet((s[1]),true))()
+		loadstring(game:HttpGet((str),true))()
+	elseif method == 2 then
+		loadstring(game:GetObjects(str)[1].Source)()
 	end
 end
 
+if player:WaitForChild("PlayerGui"):FindFirstChild("skripthab") then
+player.PlayerGui.skripthab:Destroy()
+end
 local ui = Instance.new("ScreenGui")
+ui.Name = "skripthab"
 ui.Parent = player.PlayerGui
 
 local frame = Instance.new("ImageLabel")
