@@ -32,6 +32,7 @@ if player:WaitForChild("PlayerGui"):FindFirstChild("skripthab") then
 	player.PlayerGui.skripthab:Destroy()
 end
 local ui = Instance.new("ScreenGui")
+ui.ResetOnSpawn = false
 ui.Name = "skripthab"
 ui.Parent = player.PlayerGui
 
