@@ -5,7 +5,7 @@ local player = game.Players.LocalPlayer
 
 local scripts = {
 	["дилдо выкидывать"] = {"https://raw.githubusercontent.com/0Ben1/fe/main/obf_rf6iQURzu1fqrytcnLBAvW34C9N55kS9g9G3CKz086rC47M6632sEd4ZZYB0AYgV.lua.txt", 1},
-	["летяга"] = {"https://raw.githubusercontent.com/0Ben1/fe/main/obf_rf6iQURzu1fqrytcnLBAvW34C9N55kS9g9G3CKz086rC47M6632sEd4ZZYB0AYgV.lua.txt", 1}
+	["летяга"] = {"https://raw.githubusercontent.com/skibidimattgig/bottlecap/refs/heads/main/flymatron%203000", 1}
 }
 
 
@@ -57,6 +57,7 @@ end)
 local scrollFrame = Instance.new("ScrollingFrame")
 scrollFrame.Transparency = 1
 scrollFrame.Position = UDim2.new(0,0,.1,0)
+scrollFrame.CanvasSize = UDim2.new(0,0,20,0)
 scrollFrame.Size = UDim2.new(1,0,.9,0)
 scrollFrame.Parent = frame
 
