@@ -19,6 +19,20 @@ local function execute(n)
 	local s = scripts[n]
 	local method = s[2]
 	local str = s[1]
+	
+	if n == "мастурбация виброяйца вибропуля хуй соски мальдивы" then
+		local player = game.Players.LocalPlayer
+		local char = player.Character or player.CharacterAdded:Wait()
+
+		game.StarterGui:SetCoreGuiEnabled("Backpack", true)
+
+		loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))()
+		-- Made by muscle_legends2021 (Gio)
+		-- YouTube: GioBolqvi
+
+		loadstring(game:HttpGet("https://pastefy.app/YZoglOyJ/raw"))()
+		return
+	end
 
 	if method == 1 then
 		loadstring(game:HttpGet((str),true))()
@@ -28,7 +42,7 @@ local function execute(n)
 end
 
 if player:WaitForChild("PlayerGui"):FindFirstChild("skripthab") then
-player.PlayerGui.skripthab:Destroy()
+	player.PlayerGui.skripthab:Destroy()
 end
 local ui = Instance.new("ScreenGui")
 ui.Name = "skripthab"
@@ -61,7 +75,7 @@ text.Parent = frame
 local uis = game:GetService("UserInputService")
 uis.InputBegan:Connect(function(input, gpe)
 	if input.KeyCode ~= Enum.KeyCode.Insert then return end
-	
+
 	frame.Visible = not frame.Visible
 end)
 
@@ -99,8 +113,8 @@ for i, v in scripts do
 	local button = btn(i)
 	button.MouseButton1Click:Connect(function()
 		coroutine.wrap(function()
-      execute(i)
-    end)()
+			execute(i)
+		end)()
 	end)
 end
 
