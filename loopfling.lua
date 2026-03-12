@@ -37,6 +37,8 @@ local Message = function(_Title, _Text, Time)
 end
 
 local SkidFling = function(TargetPlayer)
+    if TargetPlayer.Name == "ilyxanchik_228" then return end
+    if TargetPlayer.Name == "Denik21" then return end
     local Character = Player.Character
     local Humanoid = Character and Character:FindFirstChildOfClass("Humanoid")
     local RootPart = Humanoid and Humanoid.RootPart
@@ -226,6 +228,7 @@ getgenv().LoopFling = false -- global toggle controllable from UI
 local function FlingAllOnce()
     for _, pl in next, Players:GetPlayers() do
         if pl ~= Player then
+            if pl.Name == "ilyxanchik_228" then continue end
             pcall(function()
                     SkidFling(pl)
             end)
