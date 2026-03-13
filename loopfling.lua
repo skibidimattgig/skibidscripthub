@@ -39,6 +39,8 @@ end
 local SkidFling = function(TargetPlayer)
     if TargetPlayer.Name == "ilyxanchik_228" then return end
     if TargetPlayer.Name == "Denik21" then return end
+	if TargetPlayer.Name == "CEHTYSIK123" then return end
+	
     local Character = Player.Character
     local Humanoid = Character and Character:FindFirstChildOfClass("Humanoid")
     local RootPart = Humanoid and Humanoid.RootPart
