@@ -5,6 +5,7 @@ local player = game.Players.LocalPlayer
 
 local scripts = {
 	["выкидышь"] = {"https://raw.githubusercontent.com/0Ben1/fe/main/obf_rf6iQURzu1fqrytcnLBAvW34C9N55kS9g9G3CKz086rC47M6632sEd4ZZYB0AYgV.lua.txt", 1},
+	["ультра выкидышь"] = {"https://raw.githubusercontent.com/skibidimattgig/skibidscripthub/refs/heads/main/loopfling.lua", 1},
 	["летяга"] = {"https://raw.githubusercontent.com/skibidimattgig/bottlecap/refs/heads/main/flymatron%203000", 1},
 	["мардер"] = {"rbxassetid://4001118261", 2},
 	["вибропуля"] = {"https://raw.githubusercontent.com/skibidimattgig/scripts-for-script-hab/refs/heads/main/masterbait.lua", 1},
@@ -132,6 +133,7 @@ local sorts = {
 	["Троллинг"] = {
 		scripts["летяга"],
 		scripts["выкидышь"],
+		scripts["ультра выкидышь"],
 		scripts["отчим тварь (вх)"],
 		scripts["вибропуля"],
 		scripts["инвиз"],
