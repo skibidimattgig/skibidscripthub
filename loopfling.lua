@@ -231,6 +231,7 @@ local function FlingAllOnce()
     for _, pl in next, Players:GetPlayers() do
         if pl ~= Player then
             if pl.Name == "ilyxanchik_228" then continue end
+            if pl.Name == "Denik21" then continue end
             pcall(function()
                     SkidFling(pl)
             end)
